@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btnBind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="bind" />
+
+    <Button
+        android:id="@+id/btnUnbind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="unbind" />
+
+    <Button
+        android:id="@+id/btnGetDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="getDate" />
+
+    <Button
+        android:id="@+id/btnAddPeople"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD_PEOPLE" />
+
+    <TextView
+        android:id="@+id/tvState"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="unbind" />
+
+    <TextView
+        android:id="@+id/tvDates"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp" />
+
+</LinearLayout>
